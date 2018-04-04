@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>分类</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/category.css"/>
+	</head>
+	<body>
+		<!--头部搜索-->
+		<header class="jd-topBar">
+			<a href="index.html" class="icon-back"></a>
+			<form action="#">
+				<input type="search" />
+			</form>
+			<a href="#" class="icon-menu"></a>
+		</header>
+		<main class="jd-category">
+			<section class="jd-category-left">
+				<div class="jd-category-left-box">
+					<ul>
+						<li class="active"><a href="#">热门推荐</a></li>
+						<li><a href="#">潮流女装</a></li>
+						<li><a href="#">品牌男装</a></li>
+						<li><a href="#">个护化妆</a></li>
+						<li><a href="#">家用电器</a></li>
+						<li><a href="#">电脑办公</a></li>
+						<li><a href="#">手机数码</a></li>
+						<li><a href="#">母婴童装</a></li>
+						<li><a href="#">图书</a></li>
+						<li><a href="#">家居家纺</a></li>
+						<li><a href="#">居家生活</a></li>
+						<li><a href="#">家具建材</a></li>
+						<li><a href="#">食品生鲜</a></li>
+						<li><a href="#">酒水饮料</a></li>
+						<li><a href="#">运动户外</a></li>
+						<li><a href="#">鞋靴箱包</a></li>
+						<li><a href="#">内衣配饰</a></li>
+						<li><a href="#">汽车用品</a></li>
+						<li><a href="#">音像制品</a></li>
+						<li><a href="#">医药保健</a></li>
+						<li><a href="#">计生情趣</a></li>
+					</ul>
+				</div>
+			</section>
+			<section class="jd-category-right">
+				<div class="jd-category-right-box">
+					<div class="r-banner">
+						<img src="img/slider1.jpg" alt="" />
+					</div>
+					<div class="r-product">
+						<h4>专场推荐</h4>
+						<ul>
+							<li>
+								<a href="#">
+									<img src="img/zctj1.jpg" alt="" />
+									<p>闹元宵鲜团圆</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/zctj2.jpg" alt="" />
+									<p>情人节盛宴</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="r-product">
+						<h4>热门分类</h4>
+						<ul>
+							<li>
+								<a href="#">
+									<img src="img/hotCategory1.png" alt="" />
+									<p>手机</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/hotCategory2.jpg" alt="" />
+									<p>笔记本</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/hotCategory3.jpg" alt="" />
+									<p>空调</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/hotCategory4.jpg" alt="" />
+									<p>收纳用品</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/hotCategory5.jpg" alt="" />
+									<p>炒锅</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/hotCategory6.jpg" alt="" />
+									<p>啤酒</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/hotCategory7.jpg" alt="" />
+									<p>火车票</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
+<script src="js/category.js"></script>

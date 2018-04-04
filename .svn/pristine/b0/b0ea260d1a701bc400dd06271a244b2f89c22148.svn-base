@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>购物车</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+	</head>
+	<body>
+		<header class="jd-topBar">
+			<a href="index.html" class="icon-back"></a>
+			<h2>购物车</h2>
+			<a href="#" class="icon-menu"></a>
+		</header>
+		<!--安全提示-->
+		<div class="safeTip">
+			<em></em>
+			<p>您正在安全购物环境中，请放心购物</p>
+		</div>
+		<section>
+			<!--店铺-->
+		<div class="jd-shop">
+			<div class="jd-shop-title">
+				<div class="title-check-box">
+					<div class="jd-check-box"></div>
+				</div>
+				<div class="title-name">
+					<img src="img/JDshopTitle.png" alt="" />
+					<span class="shop-title-name">京东自营</span>
+					<a href="#" class="discount">优惠券</a>
+				</div>
+			</div>
+			<ul>
+				<li class="jd-shop-product">
+					<div class="product-check-box">
+						<div class="jd-check-box"></div>
+					</div>
+					<div class="product-detail">
+						<a href="#" class="pro-pic"><img src="img/cart1.jpg"/></a>
+						<div class="pro-text">
+							<p class="pro-name">美的（Midea）电磁炉WK2102T 整板触控 黑晶面板 八档火力（赠汤锅+炒锅）
+                        	</p>
+                        	<p class="pro-size">
+	                        	<span>重量：5.36kg</span>
+	                        	<span>颜色：经典款</span>
+                        	</p>
+                        	<p class="price-cell"></p>
+                        	<p class="pro-price">
+	                        	<span class="price">¥<strong>199</strong>.00</span>
+	                        	<span class="quantity-edit">
+                        			<span class="subtract">—</span><span class="quantity">1</span><span class="add">+</span>
+                        		</span>
+                        	</p>
+						</div>
+					</div>
+				</li>	
+				<li class="jd-shop-product">
+					<div class="product-check-box">
+						<div class="jd-check-box" checked></div>
+					</div>
+					<div class="product-detail">
+						<a href="#" class="pro-pic"><img src="img/cart2.jpg"/></a>
+						<div class="pro-text">
+							<p class="pro-name">Yoice/优益 迷你电饭煲2L多功能电饭锅小1-2-3人（智能预约) Y-MFB6 粉色
+	                        </p>
+	                        <p class="pro-size">
+	                        	<span>颜色：粉色</span>
+	                        </p>
+	                        <p class="price-cell"></p>
+	                        <p class="pro-price">
+	                        	<span class="price">¥<strong>89</strong>.00</span>
+	                        	<span class="quantity-edit">
+	                        		<span class="subtract">—</span><span class="quantity">1</span><span class="add">+</span>
+	                        	</span>
+	                        </p>
+						</div>
+					</div>
+				</li>	
+				<li class="edit">
+					<p>编辑</p>
+				</li>
+				<li class="modify">
+					<p class="delete">删除</p>
+					<p class="ok">完成</p>
+				</li>
+			</ul>
+		</div>
+		<div class="jd-shop">
+			<div class="jd-shop-title">
+				<div class="title-check-box">
+					<div class="jd-check-box"  checked></div>
+				</div>
+				<div class="title-name">
+					<img src="img/POPshopTitle.png" alt="" />
+					<span class="shop-title-name">优益电器旗舰店</span>
+				</div>
+			</div>
+			<ul>
+				<li class="jd-shop-product">
+					<div class="product-check-box">
+						<div class="jd-check-box" checked></div>
+					</div>
+					<div class="product-detail">
+						<a href="#" class="pro-pic"><img src="img/cart2.jpg"/></a>
+						<div class="pro-text">
+							<p class="pro-name">Yoice/优益 迷你电饭煲2L多功能电饭锅小1-2-3人（智能预约) Y-MFB6 粉色
+	                        </p>
+	                        <p class="pro-size">
+	                        	<span>颜色：粉色</span>
+	                        </p>
+	                        <p class="price-cell"></p>
+	                        <p class="pro-price">
+	                        	<span class="price">¥<strong>89</strong>.00</span>
+	                        	<span class="quantity-edit">
+	                        		<span class="subtract">—</span><span class="quantity">1</span><span class="add">+</span>
+	                        	</span>
+	                        </p>
+						</div>
+					</div>
+				</li>
+				<li class="edit">
+					<p>编辑</p>
+				</li>
+				<li class="modify">
+					<p class="delete">删除</p>
+					<p class="ok">完成</p>
+				</li>
+			</ul>
+		</div>
+		<div class="jd-shop">
+			<div class="jd-shop-title">
+				<div class="title-check-box">
+					<div class="jd-check-box"></div>
+				</div>
+				<div class="title-name">
+					<img src="img/POPshopTitle.png" alt="" />
+					<span class="shop-title-name">格子旗舰店</span>
+					<a href="#" class="discount">优惠券</a>
+				</div>
+			</div>
+			<ul>
+				<li class="jd-shop-product">
+					<div class="product-check-box">
+						<div class="jd-check-box"></div>
+					</div>
+					<div class="product-detail">
+						<a href="#" class="pro-pic"><img src="img/cart3.jpg"/></a>
+						<div class="pro-text">
+							<p class="pro-name">格子（Gezi）GZ05迷你电饭煲 便携式机械电饭煲 多功能蒸煮焖炖小饭煲 寝室宿舍学生锅 草绿色                    
+	                        </p>
+	                        <p class="pro-size">
+	                        	<span>颜色：草绿色</span>
+	                        </p>
+	                        <p class="price-cell"></p>
+	                        <p class="pro-price">
+	                        	<span class="price">¥<strong>39</strong>.00</span>
+	                        	<span class="quantity-edit">
+	                        		<span class="subtract">—</span><span class="quantity">1</span><span class="add">+</span>
+	                        	</span>
+	                        </p>
+						</div>
+					</div>
+				</li>
+				<li class="edit">
+					<p>编辑</p>
+				</li>
+				<li class="modify">
+					<p class="delete">删除</p>
+					<p class="ok">完成</p>
+				</li>
+			</ul>
+		</div>
+		<div class="jd-shop">
+			<div class="jd-shop-title">
+				<div class="title-check-box">
+					<div class="jd-check-box"></div>
+				</div>
+				<div class="title-name">
+					<img src="img/POPshopTitle.png" alt="" />
+					<span class="shop-title-name">能良数码旗舰店</span>
+				</div>
+			</div>
+			<ul>
+				<li class="jd-shop-product">
+					<div class="product-check-box">
+						<div class="jd-check-box"></div>
+					</div>
+					<div class="product-detail">
+						<a href="#" class="pro-pic"><img src="img/cart4.jpg"/></a>
+						<div class="pro-text">
+							<p class="pro-name">苹果(Apple) iPhone 7 Plus 移动联通电信4G手机 玫瑰金 128G 标配
+	                        </p>
+	                        <p class="pro-size">
+	                        	<span>颜色：玫瑰金</span>
+	                        </p>
+	                        <p class="price-cell"></p>
+	                        <p class="pro-price">
+	                        	<span class="price">¥<strong>6398</strong>.00</span>
+	                        	<span class="quantity-edit">
+	                        		<span class="subtract">—</span><span class="quantity">1</span><span class="add">+</span>
+	                        	</span>
+	                        </p>
+						</div>
+					</div>
+				</li>
+				<li class="edit">
+					<p>编辑</p>
+				</li>
+				<li class="modify">
+					<p class="delete">删除</p>
+					<p class="ok">完成</p>
+				</li>
+			</ul>
+		</div>
+		</section>
+			
+		<!--结算-->
+		<div class="jd-amount">
+			<div class="amount-check-box">
+				<span class="jd-check-box"></span>
+				<span>全选</span>
+			</div>
+			<div class="amount-total">
+				<p class="total-price">合计： ¥<span class="totalPrice">0.00</span></p>
+				<p class="total-money">总额: ¥<span class="allPrice">0.00</span> 立减: ¥0.00</p>
+				<a href="#" class="pay">去结算</a>
+			</div>
+		</div>
+		<!--弹出层-->
+		<div class="jd-mask">
+			<div class="jd-mask-box">
+				<div class="jd-mask-box-text">
+					确认要删除此商品吗？
+				</div>
+				<div class="jd-mask-box-button">
+					<a href="#" class="cancel">取消</a>
+					<a href="#" class="isok">确定</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/cart.js"></script>

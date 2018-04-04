@@ -1,0 +1,97 @@
+/*满屏的页面*/
+body {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #F5F5F5;
+}
+/*分类大盒子*/
+.jd-category {
+	width: 100%;
+	height: 100%;
+	padding-top: 45px;
+	position: relative;
+}
+/*左边大盒子*/
+.jd-category .jd-category-left {
+	width: 76px;
+	height:100%;
+	overflow: hidden;
+	position: absolute;
+	top:0;
+	left:0;
+	padding-top: 45px;/*让内容缩到下面*/
+	z-index: 999;
+}
+.jd-category .jd-category-left .jd-category-left-box {
+	width: 75px;
+}
+.jd-category .jd-category-left .jd-category-left-box ul {}
+.jd-category .jd-category-left ul li {
+	height: 46px;
+	line-height: 46px;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 12px;
+	background-color: #fff;
+}
+.jd-category .jd-category-left ul li a {
+	width: 100%;
+	height:100%;
+	line-height: 46px;
+	display: block;
+	text-align: center;
+	font-size: 12px;
+}
+.jd-category .jd-category-left ul li.active a {
+	color: #F23023;
+}
+/*右边大盒子*/
+.jd-category .jd-category-right {
+	width: 100%;
+	padding-left: 76px;
+	height: 100%;
+	background-color: #f5f5f5;
+}
+.jd-category .jd-category-right .jd-category-right-box {
+	padding:7px;
+	overflow: hidden;
+}
+.jd-category .jd-category-right .jd-category-right-box .r-banner {
+	width: 100%;
+}
+.jd-category .jd-category-right .jd-category-right-box .r-banner img {
+	width: 100%;
+	height: auto;
+}
+.jd-category .jd-category-right .jd-category-right-box .r-product {
+	margin-top: 19px;
+}
+.jd-category .jd-category-right .jd-category-right-box .r-product h4 {
+	font-weight: normal;
+	font-size: 12px;
+}
+.jd-category .jd-category-right .jd-category-right-box .r-product ul {
+	margin-top: 9px;
+	overflow: hidden;
+	background-color: #fff;
+	padding:7px 10px 0 10px;
+}
+.jd-category .jd-category-right .jd-category-right-box .r-product ul li {
+	float: left;
+	width: 33.3%;
+}
+.jd-category .jd-category-right .jd-category-right-box .r-product ul li a {
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+.jd-category .jd-category-right .jd-category-right-box .r-product ul li a img {
+	width: 55px;
+	height: 55px;
+}
+.jd-category .jd-category-right .jd-category-right-box .r-product ul li a p {
+	font-size: 12px;
+	line-height: 31px;
+	color: #686868;
+}

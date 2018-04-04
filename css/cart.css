@@ -1,0 +1,370 @@
+body {
+	background-color: #f5f5f5;
+}
+/*清除顶部搜索栏的绝对定位,不然下面的元素就会被盖住*/
+.jd-topBar {
+	position: static;
+}
+/*安全提示*/
+.safeTip {
+	height: 34px;
+	line-height: 34px;
+	background-color: #fff;
+	margin-bottom:10px;
+	text-align: center;
+
+}
+.safeTip em {
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	background: url(../img/shopping.cart.spirits.icns2.png) 0 -150px no-repeat;
+	background-size: 50px 200px;
+	vertical-align: middle;
+}
+.safeTip p {
+	font-size: 13px;
+	color:#686868;
+	display: inline-block;	
+}
+/*店铺以及商品*/
+.jd-shop {
+	background-color: #fff;
+	margin: 0 6px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+/*店铺名称*/
+.jd-shop .jd-shop-title {
+	height: 44px;
+	line-height: 44px;
+	position: relative;
+}
+.jd-shop .jd-shop-title .title-check-box {
+	position: absolute;
+	top:12px;
+	left:10px;
+}
+.jd-shop .jd-shop-title .title-name {
+	padding-left: 40px;
+	width: 100%;
+}
+.jd-shop .jd-shop-title .title-name img {
+	width: 16px;
+	height: 13px;
+	vertical-align: middle;
+	margin-top: -4px;
+}
+.jd-shop .jd-shop-title .title-name .discount {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-right: 9px;
+	font-size: 12px;
+	color: #F23023;
+}
+.jd-shop .jd-shop-title .title-name .discount::before {
+	content:'';
+	display: block;
+	width: 1px;
+	height: 13px;
+	background-color: #e3e5e9;
+	position: absolute;
+	top:16px;
+	left:-10px;
+}
+/*商品介绍*/
+.jd-shop .jd-shop-product {
+	position: relative;
+	overflow: hidden;
+}
+
+.jd-shop .jd-shop-product .product-check-box {
+	position: absolute;
+	top:50%;
+	left:10px;
+}
+.jd-shop .jd-shop-product .product-detail {
+	padding-left: 40px;
+	width: 100%;
+	height: 100%;
+	margin: 10px 0;
+	overflow: hidden;
+}
+.jd-shop .jd-shop-product .product-detail .pro-pic {
+	float: left;
+	margin-right: 10px;
+}
+.jd-shop .jd-shop-product .product-detail .pro-pic img {
+	width: 88px;
+	height: 88px;
+}
+.jd-shop .jd-shop-product .product-detail .pro-text {
+	padding-left: 95px;
+	font-size: 13px;
+	font-family: arial;
+	padding-right: 10px;
+}
+.jd-shop .jd-shop-product .product-detail .pro-text .pro-name {
+	height:30px;
+	line-height: 15px;
+	margin-right: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	margin-bottom: 3px;
+}
+.jd-shop .jd-shop-product .product-detail .pro-text .pro-size {
+	height: 12px;
+	line-height: 12px;
+	font-size: 11px;
+	margin-bottom: 3px;
+	color:#81838e;
+}
+.jd-shop .jd-shop-product .product-detail .pro-text .price-cell {
+	height: 14px;
+}
+.jd-shop .jd-shop-product .product-detail .pro-text .pro-price {
+	height: 24px;
+	width: 100%;
+}
+.jd-shop .jd-shop-product .product-detail .pro-text .pro-price .price {
+	color: #F23023;
+	display: inline-block;
+	height: 100%;
+	line-height: 24px;
+}
+.jd-shop .jd-shop-product .product-detail .pro-text .pro-price .price strong {
+	font-size: 16px;
+	font-weight: normal;
+}
+.jd-shop .jd-shop-product .product-detail .pro-text .pro-price .quantity-edit {
+	float: right;
+	width: 84px;
+	border: 1px solid #E3E5E9;
+}
+.jd-shop .jd-shop-product .product-detail .pro-text .pro-price .quantity-edit .subtract {
+	width: 25px;
+	height: 24px;
+	display: inline-block;
+	text-align: center;
+	line-height:24px;
+	color: #E3E5E9;
+}
+.jd-shop .jd-shop-product .product-detail .pro-text .pro-price .quantity-edit .quantity {
+	width: 34px;
+	height: 25px;
+	font-size: 14px;
+	display: inline-block;
+	border-left: 1px solid #E3E5E9;
+	border-right: 1px solid #E3E5E9;
+	text-align: center;
+	line-height:24px;
+	color: #81838E;
+}
+.jd-shop .jd-shop-product .product-detail .pro-text .pro-price .quantity-edit .add {
+	width: 23px;
+	height: 24px;
+	display: inline-block;
+	text-align: center;
+	line-height:24px;
+	color: #81838E;
+	font-size: 14px;
+}
+/*编辑*/
+.jd-shop .edit {
+	position: relative;
+	padding-right: 10px;
+	font-size: 12px;
+	height: 13px;
+	line-height: 13px;
+	margin-bottom: 6px;
+}
+.jd-shop .edit p {
+	position: absolute;
+	right: 10px;
+	top:0;
+}
+.jd-shop .edit p::before {
+	content:'';
+	display: block;
+	width: 1px;
+	height: 13px;
+	background-color: #e3e3e9;
+	position: absolute;
+	top: 0;
+	left:-8px;
+}
+.jd-shop .modify {
+	position: relative;
+	padding-right: 10px;
+	font-size: 12px;
+	height: 13px;
+	line-height: 13px;
+	margin-bottom: 6px;
+	z-index:10;
+	display: none;
+}
+.jd-shop .modify .ok {
+	position:absolute;
+	top:0;
+	right:10px;
+}
+.jd-shop .modify .delete {
+	position:absolute;
+	top:0;
+	right:60px;
+}
+.jd-shop:nth-last-child(1){
+	margin-bottom:60px;
+}
+/*结算*/
+.jd-amount {
+	position: fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	height: 50px;
+	background-color: #ffffff;
+	z-index: 100;
+}
+.jd-amount .amount-check-box {
+	position: absolute;
+	top:15px;
+	left:10px;
+}
+.jd-amount .amount-check-box span {
+	float: left;
+	font-size: 12px;
+	color: #232326;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 20px;
+	margin-left: 6px;
+}
+.jd-amount .amount-total {
+	padding-left:72px;
+	width: 100%;
+}
+.jd-amount .amount-total .total-price {
+	margin-top:10px;
+	line-height: 14px;
+	color: #232326 !important;
+	font-weight: bold;
+}
+.jd-amount .amount-total .total-money {
+	margin-top: 2px;
+	color: #232326 !important;
+	opacity: 0.8;
+	font-size: 13px;
+}
+.jd-amount .pay {
+	position: absolute;
+	top:0;
+	right:0;
+	width:98px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #F23023;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+/*弹出层*/
+.jd-mask {
+	position: fixed;
+	top: 0;
+	left:0;
+	right:0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.7);
+	z-index: 1000;
+	display: none;
+}
+.jd-mask .jd-mask-box {
+	width: 80%;
+	position: fixed;
+	top:50%;
+	left:0;
+	margin-left:10%;
+	margin-top:-70px;
+	background: #f8f8f8;
+	border-radius: 4px;
+}
+.jd-mask .jd-mask-box .jd-mask-box-text {
+	line-height: 74px;
+	text-align: center;
+	font-size: 17px;
+	color: #4d4d4d;
+}
+.jd-mask .jd-mask-box .jd-mask-box-text::after {
+	content:'';
+	display: block;
+	width: 80%;
+	margin:0 auto;
+	border-top: 1px solid #e0e0e0;
+}
+.jd-mask .jd-mask-box .jd-mask-box-button {
+	padding: 14px 25px;
+	overflow: hidden;
+}
+.jd-mask .jd-mask-box .jd-mask-box-button .cancel {
+	width: 45%;
+	display: inline-block;
+	text-align: center;
+	line-height:40px;
+	border: 1px solid #e0e0e0;
+	color: #686868;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+	float: left;
+	
+}
+.jd-mask .jd-mask-box .jd-mask-box-button .isok {
+	width: 45%;
+	display: inline-block;
+	text-align: center;
+	line-height:40px;
+	border: 1px solid #f35656;
+	color: #fff;
+	border-radius: 3px;
+	background-color: #f35656;
+	float: right;
+}
+
+/*弹出框动画*/
+@-webkit-keyframes jumpout{
+	0%{
+		opacity: 0;
+		transform: translateY(-1000px);
+		-webkit-transform: translateY(-1000px);
+	}
+	40%{
+		opacity: .7;
+		transform: translateY(40px);
+		-webkit-transform: translateY(40px);
+	}
+	60%{
+		opacity: 1;
+		transform: translateY(-10px);
+		-webkit-transform: translateY(-10px);
+	}
+	90%{
+		opacity: 1;
+		transform: translateY(20px);
+		-webkit-transform: translateY(20px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+		-webkit-transform: translateY(0);
+		
+	}
+}
+.jumpout {
+	animation: jumpout 1s ease;
+}
